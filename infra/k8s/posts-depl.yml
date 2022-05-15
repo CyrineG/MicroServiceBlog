@@ -13,6 +13,6 @@ spec:
         app: posts
     spec:
       containers:
-        - name: posts
-          image: cyrineg1/posts:0.0.1
-          imagePullPolicy: Never
+      - name: posts
+        image: rabbitbeta/posts
+        imagePullPolicy: Never
